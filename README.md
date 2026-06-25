@@ -102,5 +102,5 @@ product-marketplace/
 
 ## 🧪 Admin/Test Login Credentials
 You can register a new account on the Sign Up screen or use these test credentials (assuming database contains these records or you register them):
-- **Email**: `test@example.com`
-- **Password**: `password123`
+- **Email**: `abhinash@gmail.com`
+- **Password**: `abhinash`
