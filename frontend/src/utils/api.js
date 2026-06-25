@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Get base URL from environment or default to local port
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// Get base URL from environment or default to live backend in production
+const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.MODE === 'development' ? 'http://localhost:5000/api' : 'https://backendproduct.vercel.app/api');
 
 const api = axios.create({
   baseURL: API_URL,

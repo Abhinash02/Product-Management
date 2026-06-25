@@ -7,7 +7,7 @@ import { Mail, Lock, LogIn, Loader2 } from 'lucide-react';
 const Login = () => {
   const { login } = useAuth();
   const navigate = useNavigate();
-  const [formData, setFormData] = useState({ email: '', password: '' });
+  const [formData, setFormData] = useState({ email: 'abhinash@gmail.com', password: 'avinash' });
   const [errors, setErrors] = useState({});
   const [loading, setLoading] = useState(false);
 
