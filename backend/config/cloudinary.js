@@ -26,10 +26,8 @@ if (isCloudinaryConfigured) {
 }
 
 /**
- * Uploads a file to Cloudinary or falls back to local storage URL
- * @param {string} localFilePath Path to the file on local disk
- * @returns {Promise<string>} The URL of the uploaded image
- */
+ Uploads a file to Cloudinary or falls back to local storage URL
+*/
 const uploadToCloudinary = async (localFilePath) => {
   if (!localFilePath) return null;
 
