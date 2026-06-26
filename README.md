@@ -39,29 +39,16 @@ product-marketplace/
     │   └── App.jsx         # App routing structure
     └── tailwind.config.js  # Tailwind utility configuration
 ```
-
 ---
-
 ## 🚀 Quick Setup
 
 ### 1. Backend
 ```bash
 cd backend
 npm install
-cp .env.example .env
+cp .env.example .env # Add your MONGO_URI and JWT_SECRET
 npm run dev
 ```
-
-**Environment Variables (`.env`)**
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-```
-
 ### 2. Frontend
 ```bash
 cd frontend
